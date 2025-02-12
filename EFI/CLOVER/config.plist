@@ -172,10 +172,5 @@
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
-	<key>SystemParameters</key>
-	<dict>
-		<key>InjectSystemID</key>
-		<true/>
-	</dict>
 </dict>
 </plist>
