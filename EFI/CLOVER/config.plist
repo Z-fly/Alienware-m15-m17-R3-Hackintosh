@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ACPI</key>
+	<dict>
+		<key>SSDT</key>
+		<dict>
+			<key>Generate</key>
+			<dict>
+				<key>PluginType</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
