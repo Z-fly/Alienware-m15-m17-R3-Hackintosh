@@ -29,22 +29,12 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>11</integer>
+			<integer>15</integer>
 		</dict>
 		<key>LANInjection</key>
 		<false/>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>disable-gpu</key>
-				<data>AQAAAA==</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-			<dict>
-				<key>acpi-wake-type</key>
-				<data>AQ==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -74,11 +64,7 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>AppleIntelCPUPM</key>
-		<false/>
 		<key>AppleRTC</key>
-		<false/>
-		<key>KernelPm</key>
 		<false/>
 		<key>PanicNoKextDump</key>
 		<true/>
@@ -120,9 +106,9 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP161.88Z.F000.B00.2310052037</string>
+		<string>MBP162.88Z.F000.B00.2310052035</string>
 		<key>Board-ID</key>
-		<string>Mac-E1008331FDC96864</string>
+		<string>Mac-5F9802EFE386AA28</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
@@ -130,9 +116,9 @@
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string>MacBookPro16,1</string>
+		<string>MacBookPro16,2</string>
 		<key>ChassisAssetTag</key>
-		<string>Asset Tag#</string>
+		<string></string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
@@ -140,13 +126,13 @@
 		<key>EfiVersion</key>
 		<string>2020.41.1.0.0</string>
 		<key>ExtendedFirmwareFeatures</key>
-		<string>0x00000008FDAFF066</string>
+		<string>0x00000008FFAFF06E</string>
 		<key>ExtendedFirmwareFeaturesMask</key>
 		<string>0x00000008FFFFFF7F</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFDAFF066</string>
+		<string>0xFFAFF06E</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFFFFFF7F</string>
 		<key>LocationInChassis</key>
@@ -156,9 +142,9 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x32</string>
+		<string>0x3A</string>
 		<key>ProductName</key>
-		<string>MacBookPro16,1</string>
+		<string>MacBookPro16,2</string>
 		<key>SerialNumber</key>
 		<string>000000000000</string>
 		<key>Version</key>
